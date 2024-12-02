@@ -16,18 +16,6 @@
           "HotChocolate.Utilities.DependencyInjection": "14.1.0"
         }
       },
-      "HotChocolate.Data.EntityFramework": {
-        "type": "Direct",
-        "requested": "[14.1.0, )",
-        "resolved": "14.1.0",
-        "contentHash": "PAIafB8YkhB3rKlz8fKfPKjpaSOKlwrkHgnvvSsUymFaK4fmgNet9K2e3OdXjClRLsX9GNLZ8cUEZMfQhItT1g==",
-        "dependencies": {
-          "HotChocolate": "14.1.0",
-          "HotChocolate.Data": "14.1.0",
-          "HotChocolate.Pagination.EntityFramework": "14.1.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0"
-        }
-      },
       "Oracle.EntityFrameworkCore": {
         "type": "Direct",
         "requested": "[8.21.121, )",
@@ -96,16 +84,6 @@
         "dependencies": {
           "HotChocolate.Execution": "14.1.0",
           "HotChocolate.Types": "14.1.0"
-        }
-      },
-      "HotChocolate.Data": {
-        "type": "Transitive",
-        "resolved": "14.1.0",
-        "contentHash": "jarvbXI+VUgo1rMNgVK/0h7Zh7j8AoprIzlGXOdci1xdKKPtWKdcZC4D91BvwEY+VUzU9gRWb+vdnYWwP8dgzA==",
-        "dependencies": {
-          "HotChocolate.Execution": "14.1.0",
-          "HotChocolate.Pagination.Batching": "14.1.0",
-          "HotChocolate.Types.CursorPagination": "14.1.0"
         }
       },
       "HotChocolate.Execution": {
@@ -205,16 +183,6 @@
         "contentHash": "JyM++NtBYKcYEWCBDAA/OpQtOibSodIrVb7jTtYAysCt+1VW1IED1RCRSuL6bLPayR4+AaZv8rWtBHTlXTZexQ==",
         "dependencies": {
           "HotChocolate.Pagination.Primitives": "14.1.0"
-        }
-      },
-      "HotChocolate.Pagination.EntityFramework": {
-        "type": "Transitive",
-        "resolved": "14.1.0",
-        "contentHash": "+jwR7WXOFPWKWvtCGIo8il3jvCKMQME0vyLDiKYy0YOOin0377rYLpcVhrt47SrEvcOmDBkQ1fKR10MPzAvdxw==",
-        "dependencies": {
-          "HotChocolate.Pagination.Core": "14.1.0",
-          "HotChocolate.Pagination.Primitives": "14.1.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0"
         }
       },
       "HotChocolate.Pagination.Mappings": {

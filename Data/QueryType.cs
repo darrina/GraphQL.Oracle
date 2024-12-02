@@ -1,5 +1,5 @@
 using HotChocolate;
-using GraphQLOracleApi.Entities;
+using GraphQLOracleApi.Data.Entities;
 
 namespace GraphQLOracleApi.Data;
 public class QueryType

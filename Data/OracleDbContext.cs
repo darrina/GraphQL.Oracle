@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 // using Oracle.EntityFrameworkCore;
-using GraphQLOracleApi.Entities;
+using GraphQLOracleApi.Data.Entities;
 
 namespace GraphQLOracleApi.Data;
 
