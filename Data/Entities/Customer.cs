@@ -27,5 +27,6 @@ public class Customer
 
     // Navigation properties
     public List<Order> Orders { get; set; } = new();
+
     public Address? PrimaryAddress { get; set; }
 }

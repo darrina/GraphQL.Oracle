@@ -15,4 +15,9 @@ public class QueryType
     {
         return _context.Customers;
     }
+
+    public IQueryable<Order> GetOrders()
+    {
+        return _context.Orders;
+    }
 }

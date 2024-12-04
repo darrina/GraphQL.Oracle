@@ -10,7 +10,8 @@ using GraphQLOracleApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<OracleDbContext>(
-    options => options.UseOracle( builder.Configuration.GetConnectionString("OracleConnection")),
+    options => options.UseOracle( builder.Configuration.GetConnectionString("OracleConnection")
+        ?.Replace("%ORACLE_PASSWORD%", builder.Configuration["ORACLE_PASSWORD"])),
     ServiceLifetime.Singleton,
     ServiceLifetime.Singleton
 );
